@@ -37,7 +37,7 @@ public class ServiceTest {
 
 		Service service = new Service(connectionDatabase);
 		// use mock in test....
-		assertEquals("Using database with id: 42", service.toString());
+		assertEquals("Using ConnectionDatabase with id: 42", service.toString());
 	}
 
 }

@@ -1,7 +1,7 @@
 package org.medmota.mockitodemo.exptest;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.mockito.Matchers.isA;
+import static org.mockito.ArgumentMatchers.*;
 import static org.mockito.Mockito.when;
 
 import java.util.Iterator;
